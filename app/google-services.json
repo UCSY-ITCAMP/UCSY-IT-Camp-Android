@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "917988140807",
+    "firebase_url": "https://ucsy-it-camp-1531499420236.firebaseio.com",
+    "project_id": "ucsy-it-camp-1531499420236",
+    "storage_bucket": "ucsy-it-camp-1531499420236.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917988140807:android:da41da133fe2da9b",
+        "android_client_info": {
+          "package_name": "co.rinda.ucsyitcamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917988140807-hp4308api8rtib3g4s0kdb5737keg81l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv-9Uawk6wbxl5CrncJtT78ptbQ8oFc5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
