@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import co.rinda.ucsyitcamp.R
 import co.rinda.ucsyitcamp.vos.RoomVO
+import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.list_item_speaker.view.*
 
 class SpeakerListAdapter : RecyclerView.Adapter<SpeakerListAdapter.SpeakerViewHolder>() {
@@ -34,9 +35,13 @@ class SpeakerListAdapter : RecyclerView.Adapter<SpeakerListAdapter.SpeakerViewHo
 
         fun bind(roomVO: RoomVO) {
 
+            itemView.tv_company_name.text = "${roomVO.speaker.position} | ${roomVO.speaker.company}"
             itemView.tv_speaker_name.text = roomVO.speaker.name
             itemView.tv_topic_name.text = roomVO.speaker.topic
             itemView.tv_room.text = "Room - ${roomVO.id}"
+            Glide.with(itemView.context)
+                    .load(roomVO.speaker.profile_url)
+                    .into(itemView.ivProfile)
 
         }
 

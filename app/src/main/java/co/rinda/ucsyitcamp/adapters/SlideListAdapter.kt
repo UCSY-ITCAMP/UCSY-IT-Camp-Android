@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import co.rinda.ucsyitcamp.R
 import co.rinda.ucsyitcamp.delegates.SlideListActionDelegate
 import co.rinda.ucsyitcamp.vos.SlideVO
+import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.list_item_slide.view.*
 
 class SlideListAdapter(private val slideListActionDelegate: SlideListActionDelegate) : RecyclerView.Adapter<SlideListAdapter.SlideViewHolder>() {
@@ -37,6 +38,10 @@ class SlideListAdapter(private val slideListActionDelegate: SlideListActionDeleg
 
             itemView.tv_slide_name.text = slideVO.topic
             itemView.tv_speaker_name.text = slideVO.speaker_name
+
+            Glide.with(itemView.context)
+                    .load(slideVO.speaker_profile_url)
+                    .into(itemView.iv_speaker_profile)
 
             itemView.iv_download.setOnClickListener {
                 slideListActionDelegate.onTapDownloadSlide(slideVO.url)

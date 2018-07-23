@@ -2,7 +2,7 @@ package co.rinda.ucsyitcamp.vos
 
 class RoomVO {
 
-    var id: Long = 0
+    var id: String = ""
 
     var speaker: SpeakerVO = SpeakerVO()
 

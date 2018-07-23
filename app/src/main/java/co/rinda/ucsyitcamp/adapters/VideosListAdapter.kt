@@ -49,10 +49,10 @@ class VideosListAdapter(private val videoListActionDelegate: VideoListActionDele
             this.youtubePlaylistItemVO = youtubePlaylistItemVO
 
             itemView.tv_topic.text = youtubePlaylistItemVO.snippet?.title
-
             Glide.with(itemView.context)
                     .load(youtubePlaylistItemVO.snippet?.thumbnail?.defaultVO?.url)
                     .into(itemView.ivVideo)
+
 
         }
 

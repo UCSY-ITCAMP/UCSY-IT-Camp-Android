@@ -12,4 +12,10 @@ class SpeakerVO {
 
     var video_url: String = ""
 
+    var position: String = ""
+
+    var company: String = ""
+
+    var profile_url: String = ""
+
 }

@@ -1,6 +1,7 @@
 package co.rinda.ucsyitcamp.fragments
 
 
+import android.app.ProgressDialog
 import android.arch.lifecycle.Observer
 import android.content.Context
 import android.os.Bundle
@@ -25,6 +26,8 @@ class SlideFragment : Fragment() {
 
     private lateinit var slideListActionDelegate: SlideListActionDelegate
 
+    private lateinit var progressDialog: ProgressDialog
+
     companion object {
 
         fun newInstance() : SlideFragment {
@@ -43,6 +46,11 @@ class SlideFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_slide, container, false)
 
+        progressDialog = ProgressDialog(context)
+        progressDialog.setMessage("Loading Data...")
+        progressDialog.setCancelable(false)
+        progressDialog.show()
+
         mAdapter = SlideListAdapter(slideListActionDelegate)
         view.rv_slide.setHasFixedSize(true)
         view.rv_slide.layoutManager = LinearLayoutManager(context)
@@ -50,6 +58,7 @@ class SlideFragment : Fragment() {
 
         SlideModel.loadSlides().observe(this, Observer {
             mAdapter.setNewData(it!!)
+            progressDialog.hide()
         })
 
         return view
