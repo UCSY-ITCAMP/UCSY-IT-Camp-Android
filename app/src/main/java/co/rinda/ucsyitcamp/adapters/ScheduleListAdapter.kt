@@ -48,10 +48,10 @@ class ScheduleListAdapter : RecyclerView.Adapter<ScheduleListAdapter.ScheduleVie
 
                 if (getMillis(scheduleVO.from) <= getMillis(userDate) && getMillis(scheduleVO.to) >= getMillis(userDate)) {
 
-                    itemView.tv_start_time.background = itemView.context.getDrawable(R.drawable.buttom_background)
-                    itemView.tv_end_time.background = itemView.context.getDrawable(R.drawable.buttom_background)
-                    itemView.tv_start_time.setTextColor(ContextCompat.getColor(itemView.context, R.color.white))
-                    itemView.tv_end_time.setTextColor(ContextCompat.getColor(itemView.context, R.color.white))
+                    itemView.tv_start_time.setTextColor(ContextCompat.getColor(itemView.context, R.color.black))
+                    itemView.tv_end_time.setTextColor(ContextCompat.getColor(itemView.context, R.color.black))
+                    itemView.view.setBackgroundColor(ContextCompat.getColor(itemView.context, R.color.black))
+                    itemView.rv_speaker.setBackgroundColor(ContextCompat.getColor(itemView.context, R.color.colorPrimary))
 
                 }
 

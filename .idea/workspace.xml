@@ -11,21 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="975b0fdc-1109-4244-aaba-e1627d13d29f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttom_background.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="$PROJECT_DIR$/app/release/app-release.apk" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/ScheduleListAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/ScheduleListAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/SlideListAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/SlideListAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_slide.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_slide.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_schedule.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_schedule.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_speaker.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_speaker.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,9 +80,30 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="65" lean-forward="false" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#276#297#0" expanded="true" />
+                <element signature="e#330#351#0" expanded="true" />
+                <element signature="e#410#431#0" expanded="true" />
+                <element signature="e#953#980#0" expanded="true" />
+                <element signature="e#1019#1046#0" expanded="true" />
+                <element signature="e#1090#1114#0" expanded="true" />
+                <element signature="e#1156#1180#0" expanded="true" />
+                <element signature="e#1565#1587#0" expanded="true" />
+                <element signature="e#1677#1701#0" expanded="true" />
+                <element signature="e#2077#2099#0" expanded="true" />
+                <element signature="e#2141#2162#0" expanded="true" />
+                <element signature="e#2577#2601#0" expanded="true" />
+                <element signature="e#2639#2663#0" expanded="true" />
+                <element signature="e#2701#2725#0" expanded="true" />
+                <element signature="e#2755#2779#0" expanded="true" />
+                <element signature="e#3020#3044#0" expanded="true" />
+                <element signature="e#3082#3106#0" expanded="true" />
+                <element signature="e#3144#3168#0" expanded="true" />
+                <element signature="e#3209#3233#0" expanded="true" />
+                <element signature="e#3339#3361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,10 +146,26 @@
       <file leaf-file-name="ScheduleListAdapter.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/ScheduleListAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="78" column="48" lean-forward="true" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+            <state relative-caret-position="384">
+              <caret line="52" column="107" lean-forward="false" selection-start-line="52" selection-start-column="107" selection-end-line="52" selection-end-column="107" />
               <folding>
                 <element signature="e#38#544#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item_schedule.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_schedule.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="e#280#302#0" expanded="true" />
+                <element signature="e#481#503#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2321,6 +2352,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_slide.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/SlideListAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/buttom_background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_speaker.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_schedule.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/ScheduleListAdapter.kt" />
       </list>
     </option>
@@ -2437,6 +2470,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSY-IT-Camp-Android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSY-IT-Camp-Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2736,7 +2778,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="65" lean-forward="false" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-          <folding />
+          <folding>
+            <element signature="e#276#297#0" expanded="true" />
+            <element signature="e#330#351#0" expanded="true" />
+            <element signature="e#410#431#0" expanded="true" />
+            <element signature="e#953#980#0" expanded="true" />
+            <element signature="e#1019#1046#0" expanded="true" />
+            <element signature="e#1090#1114#0" expanded="true" />
+            <element signature="e#1156#1180#0" expanded="true" />
+            <element signature="e#1565#1587#0" expanded="true" />
+            <element signature="e#1677#1701#0" expanded="true" />
+            <element signature="e#2077#2099#0" expanded="true" />
+            <element signature="e#2141#2162#0" expanded="true" />
+            <element signature="e#2577#2601#0" expanded="true" />
+            <element signature="e#2639#2663#0" expanded="true" />
+            <element signature="e#2701#2725#0" expanded="true" />
+            <element signature="e#2755#2779#0" expanded="true" />
+            <element signature="e#3020#3044#0" expanded="true" />
+            <element signature="e#3082#3106#0" expanded="true" />
+            <element signature="e#3144#3168#0" expanded="true" />
+            <element signature="e#3209#3233#0" expanded="true" />
+            <element signature="e#3339#3361#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2927,17 +2990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_speaker.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="65" lean-forward="false" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/vos/SpeakerVO.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -3020,10 +3072,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_speaker.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#276#297#0" expanded="true" />
+            <element signature="e#330#351#0" expanded="true" />
+            <element signature="e#410#431#0" expanded="true" />
+            <element signature="e#953#980#0" expanded="true" />
+            <element signature="e#1019#1046#0" expanded="true" />
+            <element signature="e#1090#1114#0" expanded="true" />
+            <element signature="e#1156#1180#0" expanded="true" />
+            <element signature="e#1565#1587#0" expanded="true" />
+            <element signature="e#1677#1701#0" expanded="true" />
+            <element signature="e#2077#2099#0" expanded="true" />
+            <element signature="e#2141#2162#0" expanded="true" />
+            <element signature="e#2577#2601#0" expanded="true" />
+            <element signature="e#2639#2663#0" expanded="true" />
+            <element signature="e#2701#2725#0" expanded="true" />
+            <element signature="e#2755#2779#0" expanded="true" />
+            <element signature="e#3020#3044#0" expanded="true" />
+            <element signature="e#3082#3106#0" expanded="true" />
+            <element signature="e#3144#3168#0" expanded="true" />
+            <element signature="e#3209#3233#0" expanded="true" />
+            <element signature="e#3339#3361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_schedule.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#280#302#0" expanded="true" />
+            <element signature="e#481#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/co/rinda/ucsyitcamp/adapters/ScheduleListAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="78" column="48" lean-forward="true" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+        <state relative-caret-position="384">
+          <caret line="52" column="107" lean-forward="false" selection-start-line="52" selection-start-column="107" selection-end-line="52" selection-end-column="107" />
           <folding>
             <element signature="e#38#544#0" expanded="true" />
           </folding>
