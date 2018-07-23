@@ -46,13 +46,6 @@
             android:layout_toStartOf="@id/iv_download"
             android:layout_marginTop="@dimen/margin_small">
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/iv_speaker_profile"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="@dimen/margin_medium"
-                android:src="@drawable/person_placeholder" />
-
             <TextView
                 android:id="@+id/tv_speaker_name"
                 android:layout_width="match_parent"
