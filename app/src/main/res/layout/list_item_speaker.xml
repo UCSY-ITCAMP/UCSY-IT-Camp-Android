@@ -28,7 +28,7 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/person_placeholder"/>
 
-            <TextView
+            <co.rinda.ucsyitcamp.components.CustomTextView
                 android:id="@+id/tv_speaker_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
                 android:textColor="@color/black"
                 android:text="U Thar Htet" />
 
-            <TextView
+            <co.rinda.ucsyitcamp.components.CustomTextView
                 android:id="@+id/tv_company_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
 
         </RelativeLayout>
 
-        <TextView
+        <co.rinda.ucsyitcamp.components.CustomTextView
             android:id="@+id/tv_topic_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
